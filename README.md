@@ -1,3 +1,3 @@
 # Kokoa-clone
 
-learing from nomad code!
+Learing from nomad code!
