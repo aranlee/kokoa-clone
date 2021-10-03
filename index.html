@@ -1,25 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home page of kokoa clone</title>
 </head>
-<body>
-    <div id="status-bar">
+<body id="indexbody">
+    <div class="status-bar">
         <div class="status-bar__column">
             <span>No survice</span>
-            <!--Add wifi icon-->
+            <i class="fas fa-wifi"></i>
         </div>
         <div class="status-bar__column">
             <span>12:56</span>
         </div>
         <div class="status-bar__column">
             <span>100%</span>
-            <!--battery icon-->
-            <!--lightning icon-->
+            <i class="fas fa-battery-full fa-lg"></i>
+            <i class="fas fa-bolt"></i>
         </div>
     </div>
+
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+        <p class="welcome-header__text">If you have a kokoa account, log in with your email or phone number.</p>
+    </header>
+
+    <form action="friends.html" method="GET" id="login-form">
+        <input type="email" placeholder="Email or phone number" required/>
+        <input type="password" placeholder="Password" required/>
+        <input type="submit" value="Log in" />
+        <a href="#">Find kokoa account or password</a>
+    </form>
+    <script src="https://kit.fontawesome.com/7832d74f1f.js" crossorigin="anonymous"></script>
 </body>
 </html>
