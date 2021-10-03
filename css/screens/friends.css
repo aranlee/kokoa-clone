@@ -37,6 +37,14 @@
 }
 #splash-screen i {
     margin-top: 30vh;
+    text-align: center;
+}
+#splash-screen span {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    margin-top: 45vh;
 }
 @keyframes splashAni {
     0% {
