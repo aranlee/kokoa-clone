@@ -1,3 +1,4 @@
 # Kokoa-clone
-
-Learing from nomad code!
+## Nomad code learning method, kakaotalk.
+----------
+> Learing from nomad code!
