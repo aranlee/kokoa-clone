@@ -133,6 +133,7 @@
 .reply .reply__column:first-child {
     width: 3%;
     position: relative;
+    margin-right: 2%;
 }
 .reply .reply__column:last-child {
     width: 97%;
