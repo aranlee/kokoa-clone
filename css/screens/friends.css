@@ -41,9 +41,9 @@
 }
 #splash-screen span {
     position: absolute;
-    font-size: 30px;
-    font-weight: 600;
-    color: white;
+    font-size: 40px;
+    font-weight:900;
+    color: var(--serenity);
     margin-top: 45vh;
 }
 @keyframes splashAni {

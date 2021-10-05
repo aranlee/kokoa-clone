@@ -13,9 +13,11 @@
 .icon-row__icon span {
     margin-top: 18px;
 }
-.icon-row__icon:nth-child(3) i {
+.icon-row__icon:nth-child(3) i,
+.icon-row__icon:nth-child(1) i {
     color: #9EAEDB;
 }
-.icon-row__icon:nth-child(2) i {
+.icon-row__icon:nth-child(2) i,
+.icon-row__icon:nth-child(4) i {
     color: #F7CAC9;
 }
